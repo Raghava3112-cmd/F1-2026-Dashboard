@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Windows system files
+[Dd]esktop.ini
+Thumbs.db
+ehthumbs.db
+$RECYCLE.BIN/
+
+# Redundant duplicate folder
+F1/
+
+# Jupyter / IDEs
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store

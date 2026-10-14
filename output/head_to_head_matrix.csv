@@ -1,0 +1,463 @@
+as_of_round,driver_a_id,driver_a_name,driver_a_code,driver_a_team,driver_a_current_points,driver_b_id,driver_b_name,driver_b_code,driver_b_team,driver_b_current_points,win_probability,is_teammates
+16,830,Verstappen,VER,Red Bull,188.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,830,Verstappen,VER,Red Bull,188.0,1,Hamilton,HAM,Ferrari,214.0,0.2962,0
+16,830,Verstappen,VER,Red Bull,188.0,844,Leclerc,LEC,Ferrari,191.0,0.685,0
+16,830,Verstappen,VER,Red Bull,188.0,865,Hadjar,HAD,Red Bull,96.0,1.0,1
+16,830,Verstappen,VER,Red Bull,188.0,857,Piastri,PIA,McLaren,128.0,0.9983,0
+16,830,Verstappen,VER,Red Bull,188.0,859,Lawson,LAW,RB F1 Team,65.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,846,Norris,NOR,McLaren,188.0,0.7703,0
+16,830,Verstappen,VER,Red Bull,188.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,847,Russell,RUS,Mercedes,236.0,0.1657,0
+16,830,Verstappen,VER,Red Bull,188.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,830,Verstappen,VER,Red Bull,188.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,830,Verstappen,VER,Red Bull,188.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,1,Hamilton,HAM,Ferrari,214.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,844,Leclerc,LEC,Ferrari,191.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,865,Hadjar,HAD,Red Bull,96.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,857,Piastri,PIA,McLaren,128.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,859,Lawson,LAW,RB F1 Team,65.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,846,Norris,NOR,McLaren,188.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,847,Russell,RUS,Mercedes,236.0,0.9999,1
+16,863,Antonelli,ANT,Mercedes,320.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,863,Antonelli,ANT,Mercedes,320.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,830,Verstappen,VER,Red Bull,188.0,0.7038,0
+16,1,Hamilton,HAM,Ferrari,214.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,844,Leclerc,LEC,Ferrari,191.0,0.8742,1
+16,1,Hamilton,HAM,Ferrari,214.0,865,Hadjar,HAD,Red Bull,96.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,857,Piastri,PIA,McLaren,128.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,859,Lawson,LAW,RB F1 Team,65.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,846,Norris,NOR,McLaren,188.0,0.917,0
+16,1,Hamilton,HAM,Ferrari,214.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,847,Russell,RUS,Mercedes,236.0,0.3264,0
+16,1,Hamilton,HAM,Ferrari,214.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,1,Hamilton,HAM,Ferrari,214.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,830,Verstappen,VER,Red Bull,188.0,0.315,0
+16,844,Leclerc,LEC,Ferrari,191.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,1,Hamilton,HAM,Ferrari,214.0,0.1258,1
+16,844,Leclerc,LEC,Ferrari,191.0,865,Hadjar,HAD,Red Bull,96.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,857,Piastri,PIA,McLaren,128.0,0.9983,0
+16,844,Leclerc,LEC,Ferrari,191.0,859,Lawson,LAW,RB F1 Team,65.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,846,Norris,NOR,McLaren,188.0,0.6259,0
+16,844,Leclerc,LEC,Ferrari,191.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,847,Russell,RUS,Mercedes,236.0,0.058,0
+16,844,Leclerc,LEC,Ferrari,191.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,844,Leclerc,LEC,Ferrari,191.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,830,Verstappen,VER,Red Bull,188.0,0.0,1
+16,865,Hadjar,HAD,Red Bull,96.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,857,Piastri,PIA,McLaren,128.0,0.0104,0
+16,865,Hadjar,HAD,Red Bull,96.0,859,Lawson,LAW,RB F1 Team,65.0,0.9999,0
+16,865,Hadjar,HAD,Red Bull,96.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,865,Hadjar,HAD,Red Bull,96.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,830,Verstappen,VER,Red Bull,188.0,0.0017,0
+16,857,Piastri,PIA,McLaren,128.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,857,Piastri,PIA,McLaren,128.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,857,Piastri,PIA,McLaren,128.0,844,Leclerc,LEC,Ferrari,191.0,0.0017,0
+16,857,Piastri,PIA,McLaren,128.0,865,Hadjar,HAD,Red Bull,96.0,0.9896,0
+16,857,Piastri,PIA,McLaren,128.0,859,Lawson,LAW,RB F1 Team,65.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,846,Norris,NOR,McLaren,188.0,0.0054,1
+16,857,Piastri,PIA,McLaren,128.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,857,Piastri,PIA,McLaren,128.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,857,Piastri,PIA,McLaren,128.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,865,Hadjar,HAD,Red Bull,96.0,0.0001,0
+16,859,Lawson,LAW,RB F1 Team,65.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,866,Lindblad,LIN,RB F1 Team,38.0,0.9927,1
+16,859,Lawson,LAW,RB F1 Team,65.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.9869,0
+16,859,Lawson,LAW,RB F1 Team,65.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,859,Lawson,LAW,RB F1 Team,65.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0005,0
+16,4,Alonso,ALO,Aston Martin,7.0,807,Hülkenberg,HUL,Audi,7.0,0.5059,0
+16,4,Alonso,ALO,Aston Martin,7.0,840,Stroll,STR,Aston Martin,0.0,0.9263,1
+16,4,Alonso,ALO,Aston Martin,7.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0097,0
+16,4,Alonso,ALO,Aston Martin,7.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0468,0
+16,4,Alonso,ALO,Aston Martin,7.0,839,Ocon,OCO,Haas F1 Team,7.0,0.5454,0
+16,4,Alonso,ALO,Aston Martin,7.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0001,0
+16,4,Alonso,ALO,Aston Martin,7.0,832,Sainz,SAI,Williams,7.0,0.5453,0
+16,4,Alonso,ALO,Aston Martin,7.0,864,Bortoleto,BOR,Audi,10.0,0.3791,0
+16,4,Alonso,ALO,Aston Martin,7.0,815,Pérez,PER,Cadillac,0.0,0.8632,0
+16,4,Alonso,ALO,Aston Martin,7.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,4,Alonso,ALO,Aston Martin,7.0,848,Albon,ALB,Williams,5.0,0.7304,0
+16,4,Alonso,ALO,Aston Martin,7.0,822,Bottas,BOT,Cadillac,0.0,0.8916,0
+16,846,Norris,NOR,McLaren,188.0,830,Verstappen,VER,Red Bull,188.0,0.2297,0
+16,846,Norris,NOR,McLaren,188.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,846,Norris,NOR,McLaren,188.0,1,Hamilton,HAM,Ferrari,214.0,0.083,0
+16,846,Norris,NOR,McLaren,188.0,844,Leclerc,LEC,Ferrari,191.0,0.3741,0
+16,846,Norris,NOR,McLaren,188.0,865,Hadjar,HAD,Red Bull,96.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,857,Piastri,PIA,McLaren,128.0,0.9946,1
+16,846,Norris,NOR,McLaren,188.0,859,Lawson,LAW,RB F1 Team,65.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,847,Russell,RUS,Mercedes,236.0,0.0293,0
+16,846,Norris,NOR,McLaren,188.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,846,Norris,NOR,McLaren,188.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,859,Lawson,LAW,RB F1 Team,65.0,0.0073,1
+16,866,Lindblad,LIN,RB F1 Team,38.0,4,Alonso,ALO,Aston Martin,7.0,0.9995,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,807,Hülkenberg,HUL,Audi,7.0,0.9997,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.9366,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,860,Bearman,BEA,Haas F1 Team,20.0,0.9911,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,839,Ocon,OCO,Haas F1 Team,7.0,0.9993,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.4001,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,832,Sainz,SAI,Williams,7.0,0.9998,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,864,Bortoleto,BOR,Audi,10.0,0.9999,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,866,Lindblad,LIN,RB F1 Team,38.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,4,Alonso,ALO,Aston Martin,7.0,0.4941,0
+16,807,Hülkenberg,HUL,Audi,7.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0003,0
+16,807,Hülkenberg,HUL,Audi,7.0,840,Stroll,STR,Aston Martin,0.0,0.9214,0
+16,807,Hülkenberg,HUL,Audi,7.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0123,0
+16,807,Hülkenberg,HUL,Audi,7.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0585,0
+16,807,Hülkenberg,HUL,Audi,7.0,839,Ocon,OCO,Haas F1 Team,7.0,0.5589,0
+16,807,Hülkenberg,HUL,Audi,7.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0002,0
+16,807,Hülkenberg,HUL,Audi,7.0,832,Sainz,SAI,Williams,7.0,0.5641,0
+16,807,Hülkenberg,HUL,Audi,7.0,864,Bortoleto,BOR,Audi,10.0,0.3897,1
+16,807,Hülkenberg,HUL,Audi,7.0,815,Pérez,PER,Cadillac,0.0,0.8686,0
+16,807,Hülkenberg,HUL,Audi,7.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,807,Hülkenberg,HUL,Audi,7.0,848,Albon,ALB,Williams,5.0,0.7448,0
+16,807,Hülkenberg,HUL,Audi,7.0,822,Bottas,BOT,Cadillac,0.0,0.9003,0
+16,840,Stroll,STR,Aston Martin,0.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,4,Alonso,ALO,Aston Martin,7.0,0.0737,1
+16,840,Stroll,STR,Aston Martin,0.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,807,Hülkenberg,HUL,Audi,7.0,0.0786,0
+16,840,Stroll,STR,Aston Martin,0.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0016,0
+16,840,Stroll,STR,Aston Martin,0.0,839,Ocon,OCO,Haas F1 Team,7.0,0.0806,0
+16,840,Stroll,STR,Aston Martin,0.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,832,Sainz,SAI,Williams,7.0,0.0806,0
+16,840,Stroll,STR,Aston Martin,0.0,864,Bortoleto,BOR,Audi,10.0,0.0447,0
+16,840,Stroll,STR,Aston Martin,0.0,815,Pérez,PER,Cadillac,0.0,0.4412,0
+16,840,Stroll,STR,Aston Martin,0.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,840,Stroll,STR,Aston Martin,0.0,848,Albon,ALB,Williams,5.0,0.164,0
+16,840,Stroll,STR,Aston Martin,0.0,822,Bottas,BOT,Cadillac,0.0,0.4948,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,4,Alonso,ALO,Aston Martin,7.0,0.9903,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0634,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,807,Hülkenberg,HUL,Audi,7.0,0.9877,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,860,Bearman,BEA,Haas F1 Team,20.0,0.8245,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,839,Ocon,OCO,Haas F1 Team,7.0,0.9908,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.033,1
+16,861,Colapinto,COL,Alpine F1 Team,27.0,832,Sainz,SAI,Williams,7.0,0.9917,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,864,Bortoleto,BOR,Audi,10.0,0.9892,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,815,Pérez,PER,Cadillac,0.0,0.9995,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,848,Albon,ALB,Williams,5.0,0.9977,0
+16,861,Colapinto,COL,Alpine F1 Team,27.0,822,Bottas,BOT,Cadillac,0.0,0.9995,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,4,Alonso,ALO,Aston Martin,7.0,0.9532,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0089,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,807,Hülkenberg,HUL,Audi,7.0,0.9415,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,840,Stroll,STR,Aston Martin,0.0,0.9984,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.1755,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,839,Ocon,OCO,Haas F1 Team,7.0,0.961,1
+16,860,Bearman,BEA,Haas F1 Team,20.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0038,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,832,Sainz,SAI,Williams,7.0,0.9582,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,864,Bortoleto,BOR,Audi,10.0,0.9405,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,815,Pérez,PER,Cadillac,0.0,0.9963,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,848,Albon,ALB,Williams,5.0,0.9876,0
+16,860,Bearman,BEA,Haas F1 Team,20.0,822,Bottas,BOT,Cadillac,0.0,0.9973,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,4,Alonso,ALO,Aston Martin,7.0,0.4546,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0007,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,807,Hülkenberg,HUL,Audi,7.0,0.4411,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,840,Stroll,STR,Aston Martin,0.0,0.9194,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0092,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,860,Bearman,BEA,Haas F1 Team,20.0,0.039,1
+16,839,Ocon,OCO,Haas F1 Team,7.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,832,Sainz,SAI,Williams,7.0,0.5164,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,864,Bortoleto,BOR,Audi,10.0,0.3543,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,815,Pérez,PER,Cadillac,0.0,0.8598,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,848,Albon,ALB,Williams,5.0,0.7217,0
+16,839,Ocon,OCO,Haas F1 Team,7.0,822,Bottas,BOT,Cadillac,0.0,0.8829,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,859,Lawson,LAW,RB F1 Team,65.0,0.0131,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,4,Alonso,ALO,Aston Martin,7.0,0.9999,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,866,Lindblad,LIN,RB F1 Team,38.0,0.5999,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,807,Hülkenberg,HUL,Audi,7.0,0.9998,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.967,1
+16,842,Gasly,GAS,Alpine F1 Team,41.0,860,Bearman,BEA,Haas F1 Team,20.0,0.9962,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,842,Gasly,GAS,Alpine F1 Team,41.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,832,Sainz,SAI,Williams,7.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,4,Alonso,ALO,Aston Martin,7.0,0.4547,0
+16,832,Sainz,SAI,Williams,7.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0002,0
+16,832,Sainz,SAI,Williams,7.0,807,Hülkenberg,HUL,Audi,7.0,0.4359,0
+16,832,Sainz,SAI,Williams,7.0,840,Stroll,STR,Aston Martin,0.0,0.9194,0
+16,832,Sainz,SAI,Williams,7.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0083,0
+16,832,Sainz,SAI,Williams,7.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0418,0
+16,832,Sainz,SAI,Williams,7.0,839,Ocon,OCO,Haas F1 Team,7.0,0.4836,0
+16,832,Sainz,SAI,Williams,7.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,864,Bortoleto,BOR,Audi,10.0,0.3438,0
+16,832,Sainz,SAI,Williams,7.0,815,Pérez,PER,Cadillac,0.0,0.8582,0
+16,832,Sainz,SAI,Williams,7.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,832,Sainz,SAI,Williams,7.0,848,Albon,ALB,Williams,5.0,0.7114,1
+16,832,Sainz,SAI,Williams,7.0,822,Bottas,BOT,Cadillac,0.0,0.8845,0
+16,864,Bortoleto,BOR,Audi,10.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,4,Alonso,ALO,Aston Martin,7.0,0.6209,0
+16,864,Bortoleto,BOR,Audi,10.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0001,0
+16,864,Bortoleto,BOR,Audi,10.0,807,Hülkenberg,HUL,Audi,7.0,0.6103,1
+16,864,Bortoleto,BOR,Audi,10.0,840,Stroll,STR,Aston Martin,0.0,0.9553,0
+16,864,Bortoleto,BOR,Audi,10.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0108,0
+16,864,Bortoleto,BOR,Audi,10.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0595,0
+16,864,Bortoleto,BOR,Audi,10.0,839,Ocon,OCO,Haas F1 Team,7.0,0.6457,0
+16,864,Bortoleto,BOR,Audi,10.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,832,Sainz,SAI,Williams,7.0,0.6562,0
+16,864,Bortoleto,BOR,Audi,10.0,815,Pérez,PER,Cadillac,0.0,0.9153,0
+16,864,Bortoleto,BOR,Audi,10.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,864,Bortoleto,BOR,Audi,10.0,848,Albon,ALB,Williams,5.0,0.8326,0
+16,864,Bortoleto,BOR,Audi,10.0,822,Bottas,BOT,Cadillac,0.0,0.9373,0
+16,815,Pérez,PER,Cadillac,0.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,4,Alonso,ALO,Aston Martin,7.0,0.1368,0
+16,815,Pérez,PER,Cadillac,0.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,807,Hülkenberg,HUL,Audi,7.0,0.1314,0
+16,815,Pérez,PER,Cadillac,0.0,840,Stroll,STR,Aston Martin,0.0,0.5588,0
+16,815,Pérez,PER,Cadillac,0.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0005,0
+16,815,Pérez,PER,Cadillac,0.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0037,0
+16,815,Pérez,PER,Cadillac,0.0,839,Ocon,OCO,Haas F1 Team,7.0,0.1402,0
+16,815,Pérez,PER,Cadillac,0.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,832,Sainz,SAI,Williams,7.0,0.1418,0
+16,815,Pérez,PER,Cadillac,0.0,864,Bortoleto,BOR,Audi,10.0,0.0847,0
+16,815,Pérez,PER,Cadillac,0.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,815,Pérez,PER,Cadillac,0.0,848,Albon,ALB,Williams,5.0,0.251,0
+16,815,Pérez,PER,Cadillac,0.0,822,Bottas,BOT,Cadillac,0.0,0.5806,1
+16,847,Russell,RUS,Mercedes,236.0,830,Verstappen,VER,Red Bull,188.0,0.8343,0
+16,847,Russell,RUS,Mercedes,236.0,863,Antonelli,ANT,Mercedes,320.0,0.0001,1
+16,847,Russell,RUS,Mercedes,236.0,1,Hamilton,HAM,Ferrari,214.0,0.6736,0
+16,847,Russell,RUS,Mercedes,236.0,844,Leclerc,LEC,Ferrari,191.0,0.942,0
+16,847,Russell,RUS,Mercedes,236.0,865,Hadjar,HAD,Red Bull,96.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,857,Piastri,PIA,McLaren,128.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,859,Lawson,LAW,RB F1 Team,65.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,4,Alonso,ALO,Aston Martin,7.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,846,Norris,NOR,McLaren,188.0,0.9707,0
+16,847,Russell,RUS,Mercedes,236.0,866,Lindblad,LIN,RB F1 Team,38.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,807,Hülkenberg,HUL,Audi,7.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,840,Stroll,STR,Aston Martin,0.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,861,Colapinto,COL,Alpine F1 Team,27.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,860,Bearman,BEA,Haas F1 Team,20.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,839,Ocon,OCO,Haas F1 Team,7.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,842,Gasly,GAS,Alpine F1 Team,41.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,832,Sainz,SAI,Williams,7.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,864,Bortoleto,BOR,Audi,10.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,815,Pérez,PER,Cadillac,0.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,848,Albon,ALB,Williams,5.0,1.0,0
+16,847,Russell,RUS,Mercedes,236.0,822,Bottas,BOT,Cadillac,0.0,1.0,0
+16,848,Albon,ALB,Williams,5.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,4,Alonso,ALO,Aston Martin,7.0,0.2696,0
+16,848,Albon,ALB,Williams,5.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,807,Hülkenberg,HUL,Audi,7.0,0.2552,0
+16,848,Albon,ALB,Williams,5.0,840,Stroll,STR,Aston Martin,0.0,0.836,0
+16,848,Albon,ALB,Williams,5.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0023,0
+16,848,Albon,ALB,Williams,5.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0124,0
+16,848,Albon,ALB,Williams,5.0,839,Ocon,OCO,Haas F1 Team,7.0,0.2783,0
+16,848,Albon,ALB,Williams,5.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,832,Sainz,SAI,Williams,7.0,0.2886,1
+16,848,Albon,ALB,Williams,5.0,864,Bortoleto,BOR,Audi,10.0,0.1674,0
+16,848,Albon,ALB,Williams,5.0,815,Pérez,PER,Cadillac,0.0,0.749,0
+16,848,Albon,ALB,Williams,5.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,848,Albon,ALB,Williams,5.0,822,Bottas,BOT,Cadillac,0.0,0.7938,0
+16,822,Bottas,BOT,Cadillac,0.0,830,Verstappen,VER,Red Bull,188.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,863,Antonelli,ANT,Mercedes,320.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,1,Hamilton,HAM,Ferrari,214.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,844,Leclerc,LEC,Ferrari,191.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,865,Hadjar,HAD,Red Bull,96.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,857,Piastri,PIA,McLaren,128.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,859,Lawson,LAW,RB F1 Team,65.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,4,Alonso,ALO,Aston Martin,7.0,0.1084,0
+16,822,Bottas,BOT,Cadillac,0.0,846,Norris,NOR,McLaren,188.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,866,Lindblad,LIN,RB F1 Team,38.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,807,Hülkenberg,HUL,Audi,7.0,0.0997,0
+16,822,Bottas,BOT,Cadillac,0.0,840,Stroll,STR,Aston Martin,0.0,0.5052,0
+16,822,Bottas,BOT,Cadillac,0.0,861,Colapinto,COL,Alpine F1 Team,27.0,0.0005,0
+16,822,Bottas,BOT,Cadillac,0.0,860,Bearman,BEA,Haas F1 Team,20.0,0.0027,0
+16,822,Bottas,BOT,Cadillac,0.0,839,Ocon,OCO,Haas F1 Team,7.0,0.1171,0
+16,822,Bottas,BOT,Cadillac,0.0,842,Gasly,GAS,Alpine F1 Team,41.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,832,Sainz,SAI,Williams,7.0,0.1155,0
+16,822,Bottas,BOT,Cadillac,0.0,864,Bortoleto,BOR,Audi,10.0,0.0627,0
+16,822,Bottas,BOT,Cadillac,0.0,815,Pérez,PER,Cadillac,0.0,0.4194,1
+16,822,Bottas,BOT,Cadillac,0.0,847,Russell,RUS,Mercedes,236.0,0.0,0
+16,822,Bottas,BOT,Cadillac,0.0,848,Albon,ALB,Williams,5.0,0.2062,0

@@ -1,0 +1,618 @@
+================================================================================
+F1 DATA AUDIT REPORT
+================================================================================
+Data directory: c:\Users\yecha\OneDrive\Desktop\DA_26\tableau\F1\data\raw
+
+Found 14 CSV files in c:\Users\yecha\OneDrive\Desktop\DA_26\tableau\F1\data\raw:
+  - circuits.csv
+  - constructor_results.csv
+  - constructor_standings.csv
+  - constructors.csv
+  - driver_standings.csv
+  - drivers.csv
+  - lap_times.csv
+  - pit_stops.csv
+  - qualifying.csv
+  - races.csv
+  - results.csv
+  - seasons.csv
+  - sprint_results.csv
+  - status.csv
+
+================================================================================
+TASK 1: PROFILE EACH CSV IN data/raw/
+================================================================================
+--- File: circuits.csv ---
+Total Rows: 78
+Total Columns: 9
+Column Names: ['circuitId', 'circuitRef', 'name', 'location', 'country', 'lat', 'lng', 'alt', 'url']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - circuitId: count='78', '\N' count=0, empty count=0
+  - circuitRef: count='78', '\N' count=0, empty count=0
+  - name: count='78', '\N' count=0, empty count=0
+  - location: count='78', '\N' count=0, empty count=0
+  - country: count='78', '\N' count=0, empty count=0
+  - lat: count='78', '\N' count=0, empty count=0
+  - lng: count='78', '\N' count=0, empty count=0
+  - alt: count='78', '\N' count=0, empty count=0
+  - url: count='78', '\N' count=0, empty count=0
+
+--- File: constructor_results.csv ---
+Total Rows: 13041
+Total Columns: 5
+Column Names: ['constructorResultsId', 'raceId', 'constructorId', 'points', 'status']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - constructorResultsId: count='13041', '\N' count=0, empty count=0
+  - raceId: count='13041', '\N' count=0, empty count=0
+  - constructorId: count='13041', '\N' count=0, empty count=0
+  - points: count='13041', '\N' count=0, empty count=0
+  - status: count='13041', '\N' count=13024, empty count=0
+
+--- File: constructor_standings.csv ---
+Total Rows: 13807
+Total Columns: 7
+Column Names: ['constructorStandingsId', 'raceId', 'constructorId', 'points', 'position', 'positionText', 'wins']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - constructorStandingsId: count='13807', '\N' count=0, empty count=0
+  - raceId: count='13807', '\N' count=0, empty count=0
+  - constructorId: count='13807', '\N' count=0, empty count=0
+  - points: count='13807', '\N' count=0, empty count=0
+  - position: count='13807', '\N' count=1, empty count=0
+  - positionText: count='13807', '\N' count=0, empty count=0
+  - wins: count='13807', '\N' count=0, empty count=0
+
+--- File: constructors.csv ---
+Total Rows: 214
+Total Columns: 5
+Column Names: ['constructorId', 'constructorRef', 'name', 'nationality', 'url']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - constructorId: count='214', '\N' count=0, empty count=0
+  - constructorRef: count='214', '\N' count=0, empty count=0
+  - name: count='214', '\N' count=0, empty count=0
+  - nationality: count='214', '\N' count=0, empty count=0
+  - url: count='214', '\N' count=0, empty count=0
+
+--- File: driver_standings.csv ---
+Total Rows: 35718
+Total Columns: 7
+Column Names: ['driverStandingsId', 'raceId', 'driverId', 'points', 'position', 'positionText', 'wins']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - driverStandingsId: count='35718', '\N' count=0, empty count=0
+  - raceId: count='35718', '\N' count=0, empty count=0
+  - driverId: count='35718', '\N' count=0, empty count=0
+  - points: count='35718', '\N' count=0, empty count=0
+  - position: count='35718', '\N' count=13, empty count=0
+  - positionText: count='35718', '\N' count=0, empty count=0
+  - wins: count='35718', '\N' count=0, empty count=0
+
+--- File: drivers.csv ---
+Total Rows: 865
+Total Columns: 9
+Column Names: ['driverId', 'driverRef', 'number', 'code', 'forename', 'surname', 'dob', 'nationality', 'url']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - driverId: count='865', '\N' count=0, empty count=0
+  - driverRef: count='865', '\N' count=0, empty count=0
+  - number: count='865', '\N' count=802, empty count=0
+  - code: count='865', '\N' count=757, empty count=0
+  - forename: count='865', '\N' count=0, empty count=0
+  - surname: count='865', '\N' count=0, empty count=0
+  - dob: count='865', '\N' count=0, empty count=0
+  - nationality: count='865', '\N' count=0, empty count=0
+  - url: count='865', '\N' count=0, empty count=0
+
+--- File: lap_times.csv ---
+Total Rows: 884145
+Total Columns: 6
+Column Names: ['raceId', 'driverId', 'lap', 'position', 'time', 'milliseconds']
+Duplicate Rows Count: 1707
+Columns Breakdown:
+  - raceId: count='884145', '\N' count=0, empty count=0
+  - driverId: count='884145', '\N' count=0, empty count=0
+  - lap: count='884145', '\N' count=0, empty count=0
+  - position: count='884145', '\N' count=0, empty count=0
+  - time: count='884145', '\N' count=0, empty count=0
+  - milliseconds: count='884145', '\N' count=0, empty count=0
+
+--- File: pit_stops.csv ---
+Total Rows: 22777
+Total Columns: 7
+Column Names: ['raceId', 'driverId', 'stop', 'lap', 'time', 'duration', 'milliseconds']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - raceId: count='22777', '\N' count=0, empty count=0
+  - driverId: count='22777', '\N' count=0, empty count=0
+  - stop: count='22777', '\N' count=0, empty count=0
+  - lap: count='22777', '\N' count=0, empty count=0
+  - time: count='22777', '\N' count=0, empty count=0
+  - duration: count='22777', '\N' count=3, empty count=0
+  - milliseconds: count='22777', '\N' count=3, empty count=0
+
+--- File: qualifying.csv ---
+Total Rows: 11320
+Total Columns: 9
+Column Names: ['qualifyId', 'raceId', 'driverId', 'constructorId', 'number', 'position', 'q1', 'q2', 'q3']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - qualifyId: count='11320', '\N' count=0, empty count=0
+  - raceId: count='11320', '\N' count=0, empty count=0
+  - driverId: count='11320', '\N' count=0, empty count=0
+  - constructorId: count='11320', '\N' count=0, empty count=0
+  - number: count='11320', '\N' count=0, empty count=0
+  - position: count='11320', '\N' count=0, empty count=0
+  - q1: count='11320', '\N' count=164, empty count=0
+  - q2: count='11320', '\N' count=4867, empty count=0
+  - q3: count='11320', '\N' count=7299, empty count=0
+
+--- File: races.csv ---
+Total Rows: 1172
+Total Columns: 18
+Column Names: ['raceId', 'year', 'round', 'circuitId', 'name', 'date', 'time', 'url', 'fp1_date', 'fp1_time', 'fp2_date', 'fp2_time', 'fp3_date', 'fp3_time', 'quali_date', 'quali_time', 'sprint_date', 'sprint_time']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - raceId: count='1172', '\N' count=0, empty count=0
+  - year: count='1172', '\N' count=0, empty count=0
+  - round: count='1172', '\N' count=0, empty count=0
+  - circuitId: count='1172', '\N' count=0, empty count=0
+  - name: count='1172', '\N' count=0, empty count=0
+  - date: count='1172', '\N' count=0, empty count=0
+  - time: count='1172', '\N' count=731, empty count=0
+  - url: count='1172', '\N' count=0, empty count=0
+  - fp1_date: count='1172', '\N' count=1035, empty count=0
+  - fp1_time: count='1172', '\N' count=1057, empty count=0
+  - fp2_date: count='1172', '\N' count=1053, empty count=0
+  - fp2_time: count='1172', '\N' count=1075, empty count=0
+  - fp3_date: count='1172', '\N' count=1065, empty count=0
+  - fp3_time: count='1172', '\N' count=1084, empty count=0
+  - quali_date: count='1172', '\N' count=1035, empty count=0
+  - quali_time: count='1172', '\N' count=1057, empty count=0
+  - sprint_date: count='1172', '\N' count=1142, empty count=0
+  - sprint_time: count='1172', '\N' count=1145, empty count=0
+
+--- File: results.csv ---
+Total Rows: 27590
+Total Columns: 18
+Column Names: ['resultId', 'raceId', 'driverId', 'constructorId', 'number', 'grid', 'position', 'positionText', 'positionOrder', 'points', 'laps', 'time', 'milliseconds', 'fastestLap', 'rank', 'fastestLapTime', 'fastestLapSpeed', 'statusId']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - resultId: count='27590', '\N' count=0, empty count=0
+  - raceId: count='27590', '\N' count=0, empty count=0
+  - driverId: count='27590', '\N' count=0, empty count=0
+  - constructorId: count='27590', '\N' count=0, empty count=0
+  - number: count='27590', '\N' count=6, empty count=0
+  - grid: count='27590', '\N' count=42, empty count=0
+  - position: count='27590', '\N' count=10953, empty count=0
+  - positionText: count='27590', '\N' count=0, empty count=0
+  - positionOrder: count='27590', '\N' count=0, empty count=0
+  - points: count='27590', '\N' count=0, empty count=0
+  - laps: count='27590', '\N' count=0, empty count=0
+  - time: count='27590', '\N' count=19411, empty count=0
+  - milliseconds: count='27590', '\N' count=19411, empty count=0
+  - fastestLap: count='27590', '\N' count=18564, empty count=0
+  - rank: count='27590', '\N' count=18306, empty count=0
+  - fastestLapTime: count='27590', '\N' count=18564, empty count=0
+  - fastestLapSpeed: count='27590', '\N' count=19338, empty count=0
+  - statusId: count='27590', '\N' count=0, empty count=0
+
+--- File: seasons.csv ---
+Total Rows: 77
+Total Columns: 2
+Column Names: ['year', 'url']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - year: count='77', '\N' count=0, empty count=0
+  - url: count='77', '\N' count=0, empty count=0
+
+--- File: sprint_results.csv ---
+Total Rows: 590
+Total Columns: 17
+Column Names: ['resultId', 'raceId', 'driverId', 'constructorId', 'number', 'grid', 'position', 'positionText', 'positionOrder', 'points', 'laps', 'time', 'milliseconds', 'fastestLap', 'fastestLapTime', 'statusId', 'rank']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - resultId: count='590', '\N' count=0, empty count=0
+  - raceId: count='590', '\N' count=0, empty count=0
+  - driverId: count='590', '\N' count=0, empty count=0
+  - constructorId: count='590', '\N' count=0, empty count=0
+  - number: count='590', '\N' count=0, empty count=0
+  - grid: count='590', '\N' count=0, empty count=0
+  - position: count='590', '\N' count=15, empty count=0
+  - positionText: count='590', '\N' count=0, empty count=0
+  - positionOrder: count='590', '\N' count=0, empty count=0
+  - points: count='590', '\N' count=0, empty count=0
+  - laps: count='590', '\N' count=0, empty count=0
+  - time: count='590', '\N' count=39, empty count=0
+  - milliseconds: count='590', '\N' count=39, empty count=0
+  - fastestLap: count='590', '\N' count=16, empty count=0
+  - fastestLapTime: count='590', '\N' count=16, empty count=0
+  - statusId: count='590', '\N' count=2, empty count=0
+  - rank: count='590', '\N' count=367, empty count=0
+
+--- File: status.csv ---
+Total Rows: 141
+Total Columns: 2
+Column Names: ['statusId', 'status']
+Duplicate Rows Count: 0
+Columns Breakdown:
+  - statusId: count='141', '\N' count=0, empty count=0
+  - status: count='141', '\N' count=0, empty count=0
+
+================================================================================
+TASK 2: races.csv AUDIT
+================================================================================
+Total races: 1172
+Year range: 1950 to 2026
+Number of races in 2024: 24
+Number of races in 2025: 24
+Number of races in 2026: 23
+
+2026 Races (23 total):
+  raceId=1169, round=1, name='Australian Grand Prix', date='2026-03-08', circuitId=1, has_results=True
+  raceId=1170, round=2, name='Chinese Grand Prix', date='2026-03-15', circuitId=17, has_results=True
+  raceId=1171, round=3, name='Japanese Grand Prix', date='2026-03-29', circuitId=22, has_results=True
+  raceId=1172, round=4, name='Miami Grand Prix', date='2026-05-03', circuitId=79, has_results=True
+  raceId=1173, round=5, name='Canadian Grand Prix', date='2026-05-24', circuitId=7, has_results=True
+  raceId=1174, round=6, name='Monaco Grand Prix', date='2026-06-07', circuitId=6, has_results=True
+  raceId=1175, round=7, name='Barcelona-Catalunya Grand Prix', date='2026-06-14', circuitId=4, has_results=True
+  raceId=1176, round=8, name='Austrian Grand Prix', date='2026-06-28', circuitId=70, has_results=True
+  raceId=1177, round=9, name='British Grand Prix', date='2026-07-05', circuitId=9, has_results=True
+  raceId=1178, round=10, name='Belgian Grand Prix', date='2026-07-19', circuitId=13, has_results=True
+  raceId=1179, round=11, name='Hungarian Grand Prix', date='2026-07-26', circuitId=11, has_results=True
+  raceId=1180, round=12, name='Dutch Grand Prix', date='2026-08-23', circuitId=39, has_results=True
+  raceId=1181, round=13, name='Italian Grand Prix', date='2026-09-06', circuitId=14, has_results=True
+  raceId=1182, round=14, name='Spanish Grand Prix', date='2026-09-13', circuitId=81, has_results=True
+  raceId=1183, round=15, name='Azerbaijan Grand Prix', date='2026-09-26', circuitId=73, has_results=True
+  raceId=1184, round=16, name='Bahrain Grand Prix in Malaysia', date='2026-10-04', circuitId=2, has_results=True
+  raceId=1185, round=17, name='Singapore Grand Prix', date='2026-10-11', circuitId=15, has_results=False
+  raceId=1186, round=18, name='United States Grand Prix', date='2026-10-25', circuitId=69, has_results=False
+  raceId=1187, round=19, name='Mexico City Grand Prix', date='2026-11-01', circuitId=32, has_results=False
+  raceId=1188, round=20, name='Brazilian Grand Prix', date='2026-11-08', circuitId=18, has_results=False
+  raceId=1189, round=21, name='Las Vegas Grand Prix', date='2026-11-22', circuitId=80, has_results=False
+  raceId=1190, round=22, name='Qatar Grand Prix', date='2026-11-29', circuitId=78, has_results=False
+  raceId=1191, round=23, name='Abu Dhabi Grand Prix', date='2026-12-06', circuitId=24, has_results=False
+
+2026 races with results: 16
+  Completed/Result Race: raceId=1169, round=1, name='Australian Grand Prix', date=2026-03-08
+  Completed/Result Race: raceId=1170, round=2, name='Chinese Grand Prix', date=2026-03-15
+  Completed/Result Race: raceId=1171, round=3, name='Japanese Grand Prix', date=2026-03-29
+  Completed/Result Race: raceId=1172, round=4, name='Miami Grand Prix', date=2026-05-03
+  Completed/Result Race: raceId=1173, round=5, name='Canadian Grand Prix', date=2026-05-24
+  Completed/Result Race: raceId=1174, round=6, name='Monaco Grand Prix', date=2026-06-07
+  Completed/Result Race: raceId=1175, round=7, name='Barcelona-Catalunya Grand Prix', date=2026-06-14
+  Completed/Result Race: raceId=1176, round=8, name='Austrian Grand Prix', date=2026-06-28
+  Completed/Result Race: raceId=1177, round=9, name='British Grand Prix', date=2026-07-05
+  Completed/Result Race: raceId=1178, round=10, name='Belgian Grand Prix', date=2026-07-19
+  Completed/Result Race: raceId=1179, round=11, name='Hungarian Grand Prix', date=2026-07-26
+  Completed/Result Race: raceId=1180, round=12, name='Dutch Grand Prix', date=2026-08-23
+  Completed/Result Race: raceId=1181, round=13, name='Italian Grand Prix', date=2026-09-06
+  Completed/Result Race: raceId=1182, round=14, name='Spanish Grand Prix', date=2026-09-13
+  Completed/Result Race: raceId=1183, round=15, name='Azerbaijan Grand Prix', date=2026-09-26
+  Completed/Result Race: raceId=1184, round=16, name='Bahrain Grand Prix in Malaysia', date=2026-10-04
+
+================================================================================
+TASK 3: results.csv AUDIT (Grain & Duplicates)
+================================================================================
+Total rows in results: 27590
+Distinct (raceId, driverId): 27499
+Duplicate (raceId, driverId) count: 91 (Grain is 1 row per driver per race: False)
+
+Total 2026 results rows: 352
+  raceId=1169 (Round 1: Australian Grand Prix): distinct drivers = 22
+  raceId=1170 (Round 2: Chinese Grand Prix): distinct drivers = 22
+  raceId=1171 (Round 3: Japanese Grand Prix): distinct drivers = 22
+  raceId=1172 (Round 4: Miami Grand Prix): distinct drivers = 22
+  raceId=1173 (Round 5: Canadian Grand Prix): distinct drivers = 22
+  raceId=1174 (Round 6: Monaco Grand Prix): distinct drivers = 22
+  raceId=1175 (Round 7: Barcelona-Catalunya Grand Prix): distinct drivers = 22
+  raceId=1176 (Round 8: Austrian Grand Prix): distinct drivers = 22
+  raceId=1177 (Round 9: British Grand Prix): distinct drivers = 22
+  raceId=1178 (Round 10: Belgian Grand Prix): distinct drivers = 22
+  raceId=1179 (Round 11: Hungarian Grand Prix): distinct drivers = 22
+  raceId=1180 (Round 12: Dutch Grand Prix): distinct drivers = 22
+  raceId=1181 (Round 13: Italian Grand Prix): distinct drivers = 22
+  raceId=1182 (Round 14: Spanish Grand Prix): distinct drivers = 22
+  raceId=1183 (Round 15: Azerbaijan Grand Prix): distinct drivers = 22
+  raceId=1184 (Round 16: Bahrain Grand Prix in Malaysia): distinct drivers = 22
+
+Unique statusId values appearing in 2026 results: ['1', '3', '4', '5', '6', '9', '10', '11', '12', '13', '14', '20', '22', '23', '25', '26', '34', '45', '54', '64', '69', '75', '84', '112', '130', '131', '132', '136', '142', '143']
+
+================================================================================
+TASK 4: status.csv AUDIT & CATEGORIZATION
+================================================================================
+All 141 statusId Categorizations:
+  statusId=  1 | status='Finished' | category=FINISHED
+  statusId=  2 | status='Disqualified' | category=DNF_OTHER
+  statusId=  3 | status='Accident' | category=DNF_ACCIDENT
+  statusId=  4 | status='Collision' | category=DNF_ACCIDENT
+  statusId=  5 | status='Engine' | category=DNF_MECHANICAL
+  statusId=  6 | status='Gearbox' | category=DNF_MECHANICAL
+  statusId=  7 | status='Transmission' | category=DNF_MECHANICAL
+  statusId=  8 | status='Clutch' | category=DNF_MECHANICAL
+  statusId=  9 | status='Hydraulics' | category=DNF_MECHANICAL
+  statusId= 10 | status='Electrical' | category=DNF_MECHANICAL
+  statusId= 11 | status='+1 Lap' | category=FINISHED
+  statusId= 12 | status='+2 Laps' | category=FINISHED
+  statusId= 13 | status='+3 Laps' | category=FINISHED
+  statusId= 14 | status='+4 Laps' | category=FINISHED
+  statusId= 15 | status='+5 Laps' | category=FINISHED
+  statusId= 16 | status='+6 Laps' | category=FINISHED
+  statusId= 17 | status='+7 Laps' | category=FINISHED
+  statusId= 18 | status='+8 Laps' | category=FINISHED
+  statusId= 19 | status='+9 Laps' | category=FINISHED
+  statusId= 20 | status='Spun off' | category=DNF_ACCIDENT
+  statusId= 21 | status='Radiator' | category=DNF_MECHANICAL
+  statusId= 22 | status='Suspension' | category=DNF_MECHANICAL
+  statusId= 23 | status='Brakes' | category=DNF_MECHANICAL
+  statusId= 24 | status='Differential' | category=DNF_MECHANICAL
+  statusId= 25 | status='Overheating' | category=DNF_MECHANICAL
+  statusId= 26 | status='Mechanical' | category=DNF_MECHANICAL
+  statusId= 27 | status='Tyre' | category=DNF_MECHANICAL
+  statusId= 28 | status='Driver Seat' | category=DNF_OTHER
+  statusId= 29 | status='Puncture' | category=DNF_MECHANICAL
+  statusId= 30 | status='Driveshaft' | category=DNF_MECHANICAL
+  statusId= 31 | status='Retired' | category=DNF_OTHER
+  statusId= 32 | status='Fuel pressure' | category=DNF_MECHANICAL
+  statusId= 33 | status='Front wing' | category=DNF_MECHANICAL
+  statusId= 34 | status='Water pressure' | category=DNF_MECHANICAL
+  statusId= 35 | status='Refuelling' | category=DNF_OTHER
+  statusId= 36 | status='Wheel' | category=DNF_MECHANICAL
+  statusId= 37 | status='Throttle' | category=DNF_MECHANICAL
+  statusId= 38 | status='Steering' | category=DNF_MECHANICAL
+  statusId= 39 | status='Technical' | category=DNF_MECHANICAL
+  statusId= 40 | status='Electronics' | category=DNF_OTHER
+  statusId= 41 | status='Broken wing' | category=DNF_OTHER
+  statusId= 42 | status='Heat shield fire' | category=DNF_MECHANICAL
+  statusId= 43 | status='Exhaust' | category=DNF_MECHANICAL
+  statusId= 44 | status='Oil leak' | category=DNF_MECHANICAL
+  statusId= 45 | status='+11 Laps' | category=FINISHED
+  statusId= 46 | status='Wheel rim' | category=DNF_MECHANICAL
+  statusId= 47 | status='Water leak' | category=DNF_MECHANICAL
+  statusId= 48 | status='Fuel pump' | category=DNF_MECHANICAL
+  statusId= 49 | status='Track rod' | category=DNF_OTHER
+  statusId= 50 | status='+17 Laps' | category=FINISHED
+  statusId= 51 | status='Oil pressure' | category=DNF_MECHANICAL
+  statusId= 53 | status='+13 Laps' | category=FINISHED
+  statusId= 54 | status='Withdrew' | category=DNF_OTHER
+  statusId= 55 | status='+12 Laps' | category=FINISHED
+  statusId= 56 | status='Engine fire' | category=DNF_MECHANICAL
+  statusId= 58 | status='+26 Laps' | category=FINISHED
+  statusId= 59 | status='Tyre puncture' | category=DNF_MECHANICAL
+  statusId= 60 | status='Out of fuel' | category=DNF_OTHER
+  statusId= 61 | status='Wheel nut' | category=DNF_MECHANICAL
+  statusId= 62 | status='Not classified' | category=DNF_OTHER
+  statusId= 63 | status='Pneumatics' | category=DNF_MECHANICAL
+  statusId= 64 | status='Handling' | category=DNF_MECHANICAL
+  statusId= 65 | status='Rear wing' | category=DNF_MECHANICAL
+  statusId= 66 | status='Fire' | category=DNF_MECHANICAL
+  statusId= 67 | status='Wheel bearing' | category=DNF_MECHANICAL
+  statusId= 68 | status='Physical' | category=DNF_OTHER
+  statusId= 69 | status='Fuel system' | category=DNF_OTHER
+  statusId= 70 | status='Oil line' | category=DNF_OTHER
+  statusId= 71 | status='Fuel rig' | category=DNF_OTHER
+  statusId= 72 | status='Launch control' | category=DNF_OTHER
+  statusId= 73 | status='Injured' | category=DNF_OTHER
+  statusId= 74 | status='Fuel' | category=DNF_OTHER
+  statusId= 75 | status='Power loss' | category=DNF_MECHANICAL
+  statusId= 76 | status='Vibrations' | category=DNF_MECHANICAL
+  statusId= 77 | status='107% Rule' | category=DNF_OTHER
+  statusId= 78 | status='Safety' | category=DNF_OTHER
+  statusId= 79 | status='Drivetrain' | category=DNF_OTHER
+  statusId= 80 | status='Ignition' | category=DNF_MECHANICAL
+  statusId= 81 | status='Did not qualify' | category=DNF_OTHER
+  statusId= 82 | status='Injury' | category=DNF_OTHER
+  statusId= 83 | status='Chassis' | category=DNF_MECHANICAL
+  statusId= 84 | status='Battery' | category=DNF_MECHANICAL
+  statusId= 85 | status='Stalled' | category=DNF_OTHER
+  statusId= 86 | status='Halfshaft' | category=DNF_OTHER
+  statusId= 87 | status='Crankshaft' | category=DNF_OTHER
+  statusId= 88 | status='+10 Laps' | category=FINISHED
+  statusId= 89 | status='Safety concerns' | category=DNF_OTHER
+  statusId= 90 | status='Not restarted' | category=DNF_OTHER
+  statusId= 91 | status='Alternator' | category=DNF_MECHANICAL
+  statusId= 92 | status='Underweight' | category=DNF_OTHER
+  statusId= 93 | status='Safety belt' | category=DNF_OTHER
+  statusId= 94 | status='Oil pump' | category=DNF_OTHER
+  statusId= 95 | status='Fuel leak' | category=DNF_OTHER
+  statusId= 96 | status='Excluded' | category=DNF_OTHER
+  statusId= 97 | status='Did not prequalify' | category=DNF_OTHER
+  statusId= 98 | status='Injection' | category=DNF_OTHER
+  statusId= 99 | status='Distributor' | category=DNF_OTHER
+  statusId=100 | status='Driver unwell' | category=DNF_OTHER
+  statusId=101 | status='Turbo' | category=DNF_MECHANICAL
+  statusId=102 | status='CV joint' | category=DNF_MECHANICAL
+  statusId=103 | status='Water pump' | category=DNF_OTHER
+  statusId=104 | status='Fatal accident' | category=DNF_ACCIDENT
+  statusId=105 | status='Spark plugs' | category=DNF_MECHANICAL
+  statusId=106 | status='Fuel pipe' | category=DNF_MECHANICAL
+  statusId=107 | status='Eye injury' | category=DNF_OTHER
+  statusId=108 | status='Oil pipe' | category=DNF_MECHANICAL
+  statusId=109 | status='Axle' | category=DNF_OTHER
+  statusId=110 | status='Water pipe' | category=DNF_OTHER
+  statusId=111 | status='+14 Laps' | category=FINISHED
+  statusId=112 | status='+15 Laps' | category=FINISHED
+  statusId=113 | status='+25 Laps' | category=FINISHED
+  statusId=114 | status='+18 Laps' | category=FINISHED
+  statusId=115 | status='+22 Laps' | category=FINISHED
+  statusId=116 | status='+16 Laps' | category=FINISHED
+  statusId=117 | status='+24 Laps' | category=FINISHED
+  statusId=118 | status='+29 Laps' | category=FINISHED
+  statusId=119 | status='+23 Laps' | category=FINISHED
+  statusId=120 | status='+21 Laps' | category=FINISHED
+  statusId=121 | status='Magneto' | category=DNF_OTHER
+  statusId=122 | status='+44 Laps' | category=FINISHED
+  statusId=123 | status='+30 Laps' | category=FINISHED
+  statusId=124 | status='+19 Laps' | category=FINISHED
+  statusId=125 | status='+46 Laps' | category=FINISHED
+  statusId=126 | status='Supercharger' | category=DNF_OTHER
+  statusId=127 | status='+20 Laps' | category=FINISHED
+  statusId=128 | status='+42 Laps' | category=FINISHED
+  statusId=129 | status='Engine misfire' | category=DNF_MECHANICAL
+  statusId=130 | status='Collision damage' | category=DNF_ACCIDENT
+  statusId=131 | status='Power Unit' | category=DNF_MECHANICAL
+  statusId=132 | status='ERS' | category=DNF_MECHANICAL
+  statusId=133 | status='+49 Laps' | category=FINISHED
+  statusId=134 | status='+38 Laps' | category=FINISHED
+  statusId=135 | status='Brake duct' | category=DNF_MECHANICAL
+  statusId=136 | status='Seat' | category=DNF_OTHER
+  statusId=137 | status='Damage' | category=DNF_ACCIDENT
+  statusId=138 | status='Debris' | category=DNF_OTHER
+  statusId=139 | status='Illness' | category=DNF_OTHER
+  statusId=140 | status='Undertray' | category=DNF_MECHANICAL
+  statusId=141 | status='Cooling system' | category=DNF_OTHER
+  statusId=142 | status='Vibration' | category=DNF_OTHER
+  statusId=143 | status='Safety switch' | category=DNF_OTHER
+
+Status Category breakdown:
+  DNF_MECHANICAL: 53
+  DNF_OTHER: 48
+  FINISHED: 34
+  DNF_ACCIDENT: 6
+
+================================================================================
+TASK 5: qualifying.csv AUDIT
+================================================================================
+Qualifying data seasons (33 seasons): ['1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
+Number of 2026 races with qualifying records: 16 (raceIds: ['1169', '1170', '1171', '1172', '1173', '1174', '1175', '1176', '1177', '1178', '1179', '1180', '1181', '1182', '1183', '1184'])
+Total rows of 2026 qualifying: 347
+  q1: total '\N'=164, 2026 '\N'=1
+  q2: total '\N'=4867, 2026 '\N'=95
+  q3: total '\N'=7299, 2026 '\N'=190
+
+================================================================================
+TASK 6: lap_times.csv AUDIT
+================================================================================
+Lap times data seasons (45 seasons): ['1982', '1983', '1984', '1985', '1986', '1987', '1988', '1989', '1990', '1991', '1992', '1993', '1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
+Any 2026 lap time records? Count = 18341
+
+================================================================================
+TASK 7: pit_stops.csv AUDIT
+================================================================================
+Pit stops data seasons (33 seasons): ['1994', '1995', '1996', '1997', '1998', '1999', '2000', '2001', '2002', '2003', '2004', '2005', '2006', '2007', '2008', '2009', '2010', '2011', '2012', '2013', '2014', '2015', '2016', '2017', '2018', '2019', '2020', '2021', '2022', '2023', '2024', '2025', '2026']
+Any 2026 pit stop records? Count = 664
+
+================================================================================
+TASK 8: sprint_results.csv AUDIT
+================================================================================
+Sprint results data seasons (6 seasons): ['2021', '2022', '2023', '2024', '2025', '2026']
+Any 2026 sprint records? Count = 110
+2026 sprint raceIds: ['1170', '1172', '1173', '1177', '1180']
+
+Last completed 2026 race: raceId=1184, round=16, name='Bahrain Grand Prix in Malaysia'
+
+================================================================================
+TASK 9: ACTIVE 2026 DRIVER ROSTER (Last Completed 2026 Round)
+================================================================================
+Drivers in Round 16 (Bahrain Grand Prix in Malaysia) [Total: 22]:
+  driverId=830 | code=VER | surname=Verstappen      | constructorId=9   (Red Bull) | posOrder=1
+  driverId=863 | code=ANT | surname=Antonelli       | constructorId=131 (Mercedes) | posOrder=2
+  driverId=1   | code=HAM | surname=Hamilton        | constructorId=6   (Ferrari) | posOrder=3
+  driverId=844 | code=LEC | surname=Leclerc         | constructorId=6   (Ferrari) | posOrder=4
+  driverId=865 | code=HAD | surname=Hadjar          | constructorId=9   (Red Bull) | posOrder=5
+  driverId=857 | code=PIA | surname=Piastri         | constructorId=1   (McLaren) | posOrder=6
+  driverId=859 | code=LAW | surname=Lawson          | constructorId=215 (RB F1 Team) | posOrder=7
+  driverId=4   | code=ALO | surname=Alonso          | constructorId=117 (Aston Martin) | posOrder=8
+  driverId=846 | code=NOR | surname=Norris          | constructorId=1   (McLaren) | posOrder=9
+  driverId=866 | code=LIN | surname=Lindblad        | constructorId=215 (RB F1 Team) | posOrder=10
+  driverId=807 | code=HUL | surname=Hülkenberg      | constructorId=217 (Audi) | posOrder=11
+  driverId=840 | code=STR | surname=Stroll          | constructorId=117 (Aston Martin) | posOrder=12
+  driverId=861 | code=COL | surname=Colapinto       | constructorId=214 (Alpine F1 Team) | posOrder=13
+  driverId=860 | code=BEA | surname=Bearman         | constructorId=210 (Haas F1 Team) | posOrder=14
+  driverId=839 | code=OCO | surname=Ocon            | constructorId=210 (Haas F1 Team) | posOrder=15
+  driverId=842 | code=GAS | surname=Gasly           | constructorId=214 (Alpine F1 Team) | posOrder=16
+  driverId=832 | code=SAI | surname=Sainz           | constructorId=3   (Williams) | posOrder=17
+  driverId=864 | code=BOR | surname=Bortoleto       | constructorId=217 (Audi) | posOrder=18
+  driverId=815 | code=PER | surname=Pérez           | constructorId=216 (Cadillac) | posOrder=19
+  driverId=847 | code=RUS | surname=Russell         | constructorId=131 (Mercedes) | posOrder=20
+  driverId=848 | code=ALB | surname=Albon           | constructorId=3   (Williams) | posOrder=21
+  driverId=822 | code=BOT | surname=Bottas          | constructorId=216 (Cadillac) | posOrder=22
+
+================================================================================
+TASK 10: 2026 SCORING VERIFICATION (Last Completed 2026 Round)
+================================================================================
+Checking points for raceId=1184 (Bahrain Grand Prix in Malaysia):
+  Pos= 1 | Driver=VER (Verstappen  ) | Points=25.0 | Expected Base=25 | rank=1 | fastestLap=55
+  Pos= 2 | Driver=ANT (Antonelli   ) | Points=18.0 | Expected Base=18 | rank=2 | fastestLap=52
+  Pos= 3 | Driver=HAM (Hamilton    ) | Points=15.0 | Expected Base=15 | rank=3 | fastestLap=53
+  Pos= 4 | Driver=LEC (Leclerc     ) | Points=12.0 | Expected Base=12 | rank=4 | fastestLap=54
+  Pos= 5 | Driver=HAD (Hadjar      ) | Points=10.0 | Expected Base=10 | rank=6 | fastestLap=52
+  Pos= 6 | Driver=PIA (Piastri     ) | Points= 8.0 | Expected Base= 8 | rank=5 | fastestLap=53
+  Pos= 7 | Driver=LAW (Lawson      ) | Points= 6.0 | Expected Base= 6 | rank=8 | fastestLap=53
+  Pos= 8 | Driver=ALO (Alonso      ) | Points= 4.0 | Expected Base= 4 | rank=10 | fastestLap=54
+  Pos= 9 | Driver=NOR (Norris      ) | Points= 2.0 | Expected Base= 2 | rank=7 | fastestLap=54
+  Pos=10 | Driver=LIN (Lindblad    ) | Points= 1.0 | Expected Base= 1 | rank=9 | fastestLap=55
+  Pos=11 | Driver=HUL (Hülkenberg  ) | Points= 0.0 | Expected Base= 0 | rank=16 | fastestLap=54
+  Pos=12 | Driver=STR (Stroll      ) | Points= 0.0 | Expected Base= 0 | rank=14 | fastestLap=53
+  Pos=13 | Driver=COL (Colapinto   ) | Points= 0.0 | Expected Base= 0 | rank=13 | fastestLap=33
+  Pos=14 | Driver=BEA (Bearman     ) | Points= 0.0 | Expected Base= 0 | rank=11 | fastestLap=40
+  Pos=15 | Driver=OCO (Ocon        ) | Points= 0.0 | Expected Base= 0 | rank=19 | fastestLap=53
+  Pos=16 | Driver=GAS (Gasly       ) | Points= 0.0 | Expected Base= 0 | rank=17 | fastestLap=40
+  Pos=17 | Driver=SAI (Sainz       ) | Points= 0.0 | Expected Base= 0 | rank=18 | fastestLap=28
+  Pos=18 | Driver=BOR (Bortoleto   ) | Points= 0.0 | Expected Base= 0 | rank=15 | fastestLap=36
+  Pos=19 | Driver=PER (Pérez       ) | Points= 0.0 | Expected Base= 0 | rank=21 | fastestLap=20
+  Pos=20 | Driver=RUS (Russell     ) | Points= 0.0 | Expected Base= 0 | rank=12 | fastestLap=34
+  Pos=21 | Driver=ALB (Albon       ) | Points= 0.0 | Expected Base= 0 | rank=20 | fastestLap=31
+  Pos=22 | Driver=BOT (Bottas      ) | Points= 0.0 | Expected Base= 0 | rank=22 | fastestLap=7
+
+================================================================================
+TASK 11: driver_standings.csv GRAIN & CUMULATIVE SNAPSHOT VERIFICATION
+================================================================================
+Completed 2026 races up to round 16: ['Australian Grand Prix', 'Chinese Grand Prix', 'Japanese Grand Prix', 'Miami Grand Prix', 'Canadian Grand Prix', 'Monaco Grand Prix', 'Barcelona-Catalunya Grand Prix', 'Austrian Grand Prix', 'British Grand Prix', 'Belgian Grand Prix', 'Hungarian Grand Prix', 'Dutch Grand Prix', 'Italian Grand Prix', 'Spanish Grand Prix', 'Azerbaijan Grand Prix', 'Bahrain Grand Prix in Malaysia'] (raceIds: ['1172', '1179', '1176', '1173', '1171', '1184', '1182', '1177', '1178', '1181', '1183', '1170', '1174', '1175', '1169', '1180'])
+Driver Standings for Round 16 (raceId=1184):
+  Pos=1  | Driver=ANT (Antonelli   ) | Standings Pts=320.0 | Cumulative Calc Pts=320.0 | Match=True
+  Pos=2  | Driver=RUS (Russell     ) | Standings Pts=236.0 | Cumulative Calc Pts=236.0 | Match=True
+  Pos=3  | Driver=HAM (Hamilton    ) | Standings Pts=214.0 | Cumulative Calc Pts=214.0 | Match=True
+  Pos=4  | Driver=LEC (Leclerc     ) | Standings Pts=191.0 | Cumulative Calc Pts=191.0 | Match=True
+  Pos=5  | Driver=NOR (Norris      ) | Standings Pts=188.0 | Cumulative Calc Pts=188.0 | Match=True
+  Pos=6  | Driver=VER (Verstappen  ) | Standings Pts=188.0 | Cumulative Calc Pts=188.0 | Match=True
+  Pos=7  | Driver=PIA (Piastri     ) | Standings Pts=128.0 | Cumulative Calc Pts=128.0 | Match=True
+  Pos=8  | Driver=HAD (Hadjar      ) | Standings Pts= 96.0 | Cumulative Calc Pts= 96.0 | Match=True
+  Pos=9  | Driver=LAW (Lawson      ) | Standings Pts= 65.0 | Cumulative Calc Pts= 65.0 | Match=True
+  Pos=10 | Driver=GAS (Gasly       ) | Standings Pts= 41.0 | Cumulative Calc Pts= 41.0 | Match=True
+  Pos=11 | Driver=LIN (Lindblad    ) | Standings Pts= 38.0 | Cumulative Calc Pts= 38.0 | Match=True
+  Pos=12 | Driver=COL (Colapinto   ) | Standings Pts= 27.0 | Cumulative Calc Pts= 27.0 | Match=True
+  Pos=13 | Driver=BEA (Bearman     ) | Standings Pts= 20.0 | Cumulative Calc Pts= 20.0 | Match=True
+  Pos=14 | Driver=BOR (Bortoleto   ) | Standings Pts= 10.0 | Cumulative Calc Pts= 10.0 | Match=True
+  Pos=15 | Driver=HUL (Hülkenberg  ) | Standings Pts=  7.0 | Cumulative Calc Pts=  7.0 | Match=True
+  Pos=16 | Driver=OCO (Ocon        ) | Standings Pts=  7.0 | Cumulative Calc Pts=  7.0 | Match=True
+  Pos=17 | Driver=ALO (Alonso      ) | Standings Pts=  7.0 | Cumulative Calc Pts=  7.0 | Match=True
+  Pos=18 | Driver=SAI (Sainz       ) | Standings Pts=  7.0 | Cumulative Calc Pts=  7.0 | Match=True
+  Pos=19 | Driver=ALB (Albon       ) | Standings Pts=  5.0 | Cumulative Calc Pts=  5.0 | Match=True
+  Pos=20 | Driver=TSU (Tsunoda     ) | Standings Pts=  1.0 | Cumulative Calc Pts=  1.0 | Match=True
+  Pos=21 | Driver=STR (Stroll      ) | Standings Pts=  0.0 | Cumulative Calc Pts=  0.0 | Match=True
+  Pos=22 | Driver=BOT (Bottas      ) | Standings Pts=  0.0 | Cumulative Calc Pts=  0.0 | Match=True
+  Pos=23 | Driver=PER (Pérez       ) | Standings Pts=  0.0 | Cumulative Calc Pts=  0.0 | Match=True
+
+================================================================================
+TASK 12: CONSTRUCTOR ASSIGNMENTS IN 2026 & MID-SEASON SWITCHES
+================================================================================
+2026 Driver-Constructor pairings:
+  Driver: HAM (Hamilton    , driverId=1) -> Constructors: ['Ferrari']
+  Driver: ALO (Alonso      , driverId=4) -> Constructors: ['Aston Martin']
+  Driver: HUL (Hülkenberg  , driverId=807) -> Constructors: ['Audi']
+  Driver: PER (Pérez       , driverId=815) -> Constructors: ['Cadillac']
+  Driver: BOT (Bottas      , driverId=822) -> Constructors: ['Cadillac']
+  Driver: VER (Verstappen  , driverId=830) -> Constructors: ['Red Bull']
+  Driver: SAI (Sainz       , driverId=832) -> Constructors: ['Williams']
+  Driver: OCO (Ocon        , driverId=839) -> Constructors: ['Haas F1 Team']
+  Driver: STR (Stroll      , driverId=840) -> Constructors: ['Aston Martin']
+  Driver: GAS (Gasly       , driverId=842) -> Constructors: ['Alpine F1 Team']
+  Driver: LEC (Leclerc     , driverId=844) -> Constructors: ['Ferrari']
+  Driver: NOR (Norris      , driverId=846) -> Constructors: ['McLaren']
+  Driver: RUS (Russell     , driverId=847) -> Constructors: ['Mercedes']
+  Driver: ALB (Albon       , driverId=848) -> Constructors: ['Williams']
+  Driver: TSU (Tsunoda     , driverId=852) -> Constructors: ['RB F1 Team']
+  Driver: PIA (Piastri     , driverId=857) -> Constructors: ['McLaren']
+  Driver: LAW (Lawson      , driverId=859) -> Constructors: ['RB F1 Team', 'Red Bull']
+  Driver: BEA (Bearman     , driverId=860) -> Constructors: ['Haas F1 Team']
+  Driver: COL (Colapinto   , driverId=861) -> Constructors: ['Alpine F1 Team']
+  Driver: ANT (Antonelli   , driverId=863) -> Constructors: ['Mercedes']
+  Driver: BOR (Bortoleto   , driverId=864) -> Constructors: ['Audi']
+  Driver: HAD (Hadjar      , driverId=865) -> Constructors: ['Red Bull']
+  Driver: LIN (Lindblad    , driverId=866) -> Constructors: ['RB F1 Team']
+
+MID-SEASON CONSTRUCTOR SWITCHES DETECTED (1):
+  WARNING: LAW (Lawson) drove for: ['RB F1 Team', 'Red Bull']
